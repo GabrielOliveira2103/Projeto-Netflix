@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    position: relative;
+}
+
+
+
+ul {
+    height: 25px;
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+    list-style-type: none;
+    position: fixed;
+
+}
+
+.img-topo {
+    height: 30px;
+}
+
+video {
+    width: 100vw;
+    min-height: 80vh;
+
+}
+
+.capa {
+    position: absolute;
+    bottom: 30%;
+    left: 5%;
+    width: 35%;
+    z-index: 3;
+
+
+}
+
+.capa-titulo {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 5px;
+    font-weight: bold;
+
+
+
+
+}
+
+.capa-descrição {
+    color: white;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.link-assistir {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.link-info {
+    color: black;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.imagem-carrossel {
+    height: 170px;
+
+}
+
+#carouselExampleControls {
+    background-color: transparent;
+    position: absolute;
+    bottom: -140px;
+    left: 50px;
+}
+
+@media screen and (max-width:667px){
+    #carouselExampleControls{
+        display: flex;
+        position: relative;
+        height: 169px;
+        bottom: -200px;
+        
+    }
+
+    .capa{
+        width: 362px;
+        bottom: 4%;
+    }
+    
+    video{
+        min-height: 60vh;
+        width: 42vh;
+    }
+}
+   ul{
+    top: 42px;
+    width: 79%;
+   }
